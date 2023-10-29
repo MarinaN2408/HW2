@@ -1,0 +1,38 @@
+Завдання1
+a=int(input())
+if a%2==1:
+    print("Непарне")
+else:
+    print("Парне")
+завдання2
+a=int(input())
+b=int(input())
+c=int(input())
+if a>0 or b>0 or c>0:
+    print("true")
+else:
+    print("false")
+завдання 3
+a=int(input())
+b=int(input())
+if a>b:
+    print('бiльше',a,'\n''меньше',b)
+else:
+    print('бiльше',b,'\a''меньше',a)
+завдання 4
+a=int(input())
+b=int(input())
+c=int(input())
+if a<b<c: 
+    print('b середне')
+elif b<a<c:    
+   print('a середне')
+else: 
+    print('c середне')
+завдання 5
+a=int(input())
+if  a%4==0 and (a%100!=0 or a%400==0):
+    print('366 днiв')
+else:
+    print('365 днiв')
+    
